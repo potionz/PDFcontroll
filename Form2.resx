@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Tečka, zpětné lomítko
+.	odpovídá libovolnému znaku 				k.s odpovídá kus, kos, k2s aj.
+\ 	vrací metaznaku původní význam 			a\+b odpovídá a+b
+
+Kvantifikátory - Předcházející znak se musí vyskytovat....
+? 	minimálně 0x, maximálně 1x 				ku?s odpovídá právě ks a kus
+* 	minimálně 0x, maximálně neomezeně krát 			halo* odpovídá hal, halo, haloooo apod.
++ 	minimálně 1x, maximálně neomezeně krát 			halo+ odpovídá halo, haloooo apod.
+{n} 	právě n-krát 					10{6} odpovídá právě 1000000
+{m,n} 	minimálně m-krát, maximálně n-krát			10{2,4} odpovídá právě 100, 1000 a 10000
+{n,} 	minimálně n-krát 					10{2,} odpovídá 100, 1000, 10000, 10000 apod.
+
+Skupiny znaků
+[ ] 	odpovídá jednomu ze znaků v závorkách 			[abc] odpovídá právě a, b, c
+[^ ] 	odpovídá jednomu znaku, neuvedenému v závorkách		[^abc] odpovídá libovolný znak krom a, b, c
+[ - ] 	odpovídá jednomu znaku z rozsahu znaků 			[a-z] odpovídají (malá) písmena abecedy
+\s 	odpovídá bílému znaku (\n, \r, \t, mezera aj.) 		a\sb odpovídá a b, ale ne ab
+\S 	odpovídá jinému než bílému znaku 			a\Sb odpovídá a+b, ale ne a b
+\d 	odpovídá desítkové číslici 				a\db odpovídá a2b, ale ne axb
+\D 	odpovídá libovolnému znaku kromě číslic 0-9 		a\Db odpovídá axb, ale ne a2b
+\w 	odpovídá alfanumerickému znaku a podtržitku 		\w odpovídá 1, a, A, _ ap., ale ne $, + ap.
+\W 	odpovídá nealfanumerickému znaku nebo podtržítku 		\W odpovídá $, !, ?, % ap., ale ne 2, b ap.
+
+Hranice (ukotvení) - Odpovídá pozici...
+^ 	na začátku řetězce či řádku 				^Petr najde Petr jen na začátku řetězce/řádku
+$ 	na konci řetězce či řádku 				Pavel$ najde Pavel jen na konci řetězce/řádku
+\b 	na začátku či konce tzv. slova 				\bkos\b nenajde kos ve slově kost či kokos
+\B 	kdekoliv kromě začátku a konce slova 			\Bkos najde kos ve slově kokos, ale ne v kost
+
+Alternativy, seskupování, zpětné odkazy (reference)
+| 	odděluje několik dílčích výrazů 				ahoj|nazdar odpovídá právě jednomu z pozdravů
+	odděluje několik dílčích subvýrazů 			a(b|c) odpovídá právě ab a ac
+( ) 	subřetězec na nějž je možno aplikovat kvantifikátor 		ko(ko)?s odpovídá právě kos a kokos
+	subřetězec na nějž se lze odkazovat 			(\d)\1 resp. (\d)$1 odpovídá 11, 22, 33 apod.
+
+Speciální závorkové konstrukce
+(?: ) 	uzávorkování netvořící zpětnou referenci 			(?:\d)(\d)\1 bude odpovídat 122, 133, 455 apod. 
+(?# ) 	komentář - text v závorkách za znakem # je ignorován 		a(?#test)b odpovídá právě ab
+(?= ) 	kladné tvrzení o následujícím 				kos(?=t) odpovídá kos v kost, ale ne v kosa
+(?! ) 	záporné tvrzení o následujícím 				kos(?!t) odpovídá kos v kosa, kosu ale ne v kost
+(?&lt;= ) 	kladné tvrzení o předcházejícím 				\d{3}(?&lt;=0) sekvence 3 číslic; poslední musí být 0
+(?&lt;! ) 	záporné tvrzení o předcházejím 				\d{3}(?&lt;!0) sekvence 3 číslic; poslední nesmí být 0
+
+Modifikátor 	Název 				Funkčnost
+i 		ignore case 			nerozlišování malých/velkých písmen
+s 		single line	 			. odpovídá i znaku \n (nový řádek)
+m 		multiple lines 			^/$ odpovídá i začátku/konci každého řádku
+x 		extended 				bílé znaky a komentáře (znaky vpravo od #) jsou ignorovány
+g 		global match 			hledány všechny části řetězce, které odpovídají regulárnímu výrazu</value>
+  </data>
+</root>
